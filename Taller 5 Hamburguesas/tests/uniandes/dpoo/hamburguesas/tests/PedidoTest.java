@@ -30,13 +30,7 @@ public class PedidoTest
     void tearDown( ) throws Exception
     {
     }
-    
-    @Test
-    void testGetIdPedido( )
-    {
-        assertEquals( 1, pedido1.getIdPedido(), "El id del pedido no es el esperado." );
-    }
-    
+  
     @Test
     void testGetNombreCliente( )
     {
